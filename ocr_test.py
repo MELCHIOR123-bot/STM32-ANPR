@@ -11,6 +11,8 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 print("Input Details : ", input_details)
 
+char_map = {i: c for i, c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')}
+char_map[-1] = ''  # Padding/end token
 # Function to preprocess image (resize to expected input size, e.g., 128x32 for CTC models)
 def preprocess_image(image_path):
     img = Image.open(image_path).convert('L')  # Convert to grayscale
@@ -24,10 +26,9 @@ def recognize_text(image_path):
     interpreter.set_tensor(input_details[0]['index'], input_data)
     interpreter.invoke()
     output_data = interpreter.get_tensor(output_details[0]['index'])
-    # Note: Output decoding depends on the model's training (e.g., CTC decoding)
-    # For simplicity, this assumes a raw output; you'll need a decoder (e.g., CTC greedy decoder) later
-    return output_data
-
+    # Simple CTC greedy decoding: take the max index per timestep and filter out -1
+    decoded = [char_map[np.argmax(output_data[0][t])] for t in range(output_data.shape[1]) if np.argmax(output_data[0][t]) != -1]
+    return ''.join(decoded)
 # Test on the first detected image (adjust path based on your runs/detect/predict/images)
 image_path = "runs/detect/predict/plate1.jpg"  # Replace with an actual detected image
 result = recognize_text(image_path)
