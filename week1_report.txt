@@ -1,0 +1,7 @@
+Week 1 Report - June 12, 2025 
+ 
+Setup: Virtual environment (anpr_env) with ultralytics, opencv-python, tensorflow installed. 
+Models: yolov8n.pt used for detection (TFLite conversion failed), keras_ocr_float16_ctc.tflite used (substituted for handwriting_recognition.tflite). 
+Test Results: Detected 5 plates in C:\Users\melch\Documents\ANPR\outputs, OCR tested on 14 images with inconsistent results (e.g., "MK2KMO" vs. "KAM119E"). 
+Node-RED: Basic dashboard at http://localhost:1880/ui displays sample plate number. 
+Next Steps: Resolve TFLite conversion and integrate with STM32 in Week 2. 
