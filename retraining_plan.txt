@@ -1,0 +1,33 @@
+Retraining Plan for ANPR OCR Model - June 12, 2025
+
+Objective:
+- Improve OCR accuracy for Kenyan license plates by retraining the keras_ocr_float16_ctc.tflite model.
+
+Current Issues:
+- Model outputs inconsistent results (e.g., "MK2KMO" vs. "KAM119E", empty outputs).
+- Likely trained on general OCR data, not optimized for Kenyan plate fonts/layouts.
+- 200x31 resize may distort characters.
+
+Action Plan:
+1. Data Collection (Week 2, June 16-20, 2025):
+   - Gather 500-1000 images of Kenyan license plates (yellow background, black text, e.g., "KAM119E").
+   - Use existing 14 images from runs/detect/predict/images as a starting point.
+   - Annotate images with ground truth text (e.g., label "KAM119E" for plate1.jpg).
+2. Model Preparation (Week 2, June 16-20, 2025):
+   - Use the original keras-ocr model (from https://github.com/faustomorales/keras-ocr) as a base.
+   - Convert to TFLite format with float16 support for STM32H747I-DISCO compatibility.
+3. Training (Week 3, June 23-27, 2025):
+   - Fine-tune on collected dataset using CTC loss.
+   - Adjust input size (e.g., 200x31 or native plate dimensions) based on data.
+4. Testing and Integration (Week 3, June 23-27, 2025):
+   - Test new model on all 14 images.
+   - Integrate with YOLOv8 detection and deploy to STM32H747I-DISCO.
+
+Resources:
+- Dataset: Collect from local roads or online sources (e.g., maindikenya.net with permission).
+- Tools: TensorFlow, keras-ocr, TFLite Converter.
+- Hardware: Windows laptop for training, STM32 for inference.
+
+Next Steps:
+- Start data collection and annotation.
+- Research keras-ocr setup for retraining.
