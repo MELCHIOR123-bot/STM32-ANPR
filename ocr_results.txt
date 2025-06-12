@@ -1,0 +1,68 @@
+Raw Output Data Shape for plate1.jpg: (1, 48)
+Raw Output Data for plate1.jpg: [[12 10 28 10 12 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate1.jpg: MK2KMO
+Raw Output Data Shape for plate10.jpg: (1, 48)
+Raw Output Data for plate10.jpg: [[10 14 28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate10.jpg: KO2
+Raw Output Data Shape for plate11.jpg: (1, 48)
+Raw Output Data for plate11.jpg: [[-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate11.jpg:
+Raw Output Data Shape for plate12.jpg: (1, 48)
+Raw Output Data for plate12.jpg: [[28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate12.jpg: 2
+Raw Output Data Shape for plate13.jpg: (1, 48)
+Raw Output Data for plate13.jpg: [[20 11 33 18 16 10 22 18 28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate13.jpg: UL7SQKWS2
+Raw Output Data Shape for plate14.jpg: (1, 48)
+Raw Output Data for plate14.jpg: [[20 20 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate14.jpg: UU
+Raw Output Data Shape for plate15.jpg: (1, 48)
+Raw Output Data for plate15.jpg: [[14 29 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate15.jpg: O3
+Raw Output Data Shape for plate16.jpg: (1, 48)
+Raw Output Data for plate16.jpg: [[20 12 35 14 28  8  5 12 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate16.jpg: UM9O2IFM
+Raw Output Data Shape for plate17.jpg: (1, 48)
+Raw Output Data for plate17.jpg: [[-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate17.jpg:
+Raw Output Data Shape for plate2.jpg: (1, 48)
+Raw Output Data for plate2.jpg: [[25 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate2.jpg: Z
+Raw Output Data Shape for plate3.jpg: (1, 48)
+Raw Output Data for plate3.jpg: [[14 28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate3.jpg: O2
+Raw Output Data Shape for plate4.jpg: (1, 48)
+Raw Output Data for plate4.jpg: [[20 18 28 29 35 12 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate4.jpg: US239M
+Raw Output Data Shape for plate5.jpg: (1, 48)
+Raw Output Data for plate5.jpg: [[28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate5.jpg: 2
+Raw Output Data Shape for plate6.jpg: (1, 48)
+Raw Output Data for plate6.jpg: [[20 10 34 28 28 18 24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate6.jpg: UK822SY
+Raw Output Data Shape for plate7.jpg: (1, 48)
+Raw Output Data for plate7.jpg: [[20 10 34 29 28 28 18 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate7.jpg: UK8322S
+Raw Output Data Shape for plate8.jpg: (1, 48)
+Raw Output Data for plate8.jpg: [[29 28 24 28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate8.jpg: 32Y2
+Raw Output Data Shape for plate9.jpg: (1, 48)
+Raw Output Data for plate9.jpg: [[14 14 24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+  -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1]]
+OCR Result for plate9.jpg: OOY
